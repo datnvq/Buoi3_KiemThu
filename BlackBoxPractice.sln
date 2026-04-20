@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi3KiemThu", "src\Buoi3Ki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi3KiemThu.Tests", "tests\Buoi3KiemThu.Tests\Buoi3KiemThu.Tests.csproj", "{8C31B27B-7D3B-4F7D-8AF8-5B5F5D8A7D74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buoi3KiemThu.AutoTests", "tests\Buoi3KiemThu.AutoTests\Buoi3KiemThu.AutoTests.csproj", "{5A0F22F1-2E2A-4A65-9D5D-7B90B1B0D0B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{8C31B27B-7D3B-4F7D-8AF8-5B5F5D8A7D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C31B27B-7D3B-4F7D-8AF8-5B5F5D8A7D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C31B27B-7D3B-4F7D-8AF8-5B5F5D8A7D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0F22F1-2E2A-4A65-9D5D-7B90B1B0D0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0F22F1-2E2A-4A65-9D5D-7B90B1B0D0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0F22F1-2E2A-4A65-9D5D-7B90B1B0D0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0F22F1-2E2A-4A65-9D5D-7B90B1B0D0B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

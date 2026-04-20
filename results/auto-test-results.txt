@@ -1,0 +1,30 @@
+﻿Auto-generated black-box test run
+Generated at: 2026-04-20 07:53:43
+
+[PASS] RP-A01 | Rectangle perimeter | Input: length = 3, width = 4 | Expected: 14 | Actual: 14 | Technique: Equivalence partitioning
+[PASS] RP-A02 | Rectangle perimeter | Input: length = 0.5, width = 0.5 | Expected: 2 | Actual: 2 | Technique: Boundary value analysis
+[PASS] RP-A03 | Rectangle perimeter | Input: length = 0, width = 4 | Expected: Exception | Actual: ArgumentOutOfRangeException | Technique: Invalid data
+[PASS] RA-A01 | Rectangle area | Input: length = 3, width = 4 | Expected: 12 | Actual: 12 | Technique: Equivalence partitioning
+[PASS] RA-A02 | Rectangle area | Input: length = 0.5, width = 0.5 | Expected: 0.25 | Actual: 0.25 | Technique: Boundary value analysis
+[PASS] RA-A03 | Rectangle area | Input: length = -1, width = 4 | Expected: Exception | Actual: ArgumentOutOfRangeException | Technique: Invalid data
+[PASS] QE-A01 | Quadratic equation | Input: a = 1, b = -5, c = 6 | Expected: Two real roots: x1 = 2, x2 = 3 | Actual: Two real roots: x1 = 2, x2 = 3 | Technique: Equivalence partitioning
+[PASS] QE-A02 | Quadratic equation | Input: a = 1, b = 2, c = 1 | Expected: One double root: x = -1 | Actual: One double root: x = -1 | Technique: Boundary on discriminant = 0
+[PASS] QE-A03 | Quadratic equation | Input: a = 0, b = 2, c = 1 | Expected: Exception | Actual: ArgumentException | Technique: Invalid coefficient
+[PASS] DM-A01 | Days in month | Input: month = 1, year = 2026 | Expected: 31 | Actual: 31 | Technique: Equivalence partitioning
+[PASS] DM-A02 | Days in month | Input: month = 2, year = 2024 | Expected: 29 | Actual: 29 | Technique: Leap-year boundary
+[PASS] DM-A03 | Days in month | Input: month = 13, year = 2026 | Expected: Exception | Actual: ArgumentOutOfRangeException | Technique: Invalid month
+[PASS] PR-A01 | Prime check | Input: n = 17 | Expected: True | Actual: True | Technique: Equivalence partitioning
+[PASS] PR-A02 | Prime check | Input: n = 1 | Expected: False | Actual: False | Technique: Boundary value analysis
+[PASS] PR-A03 | Prime check | Input: n = -7 | Expected: Exception | Actual: ArgumentOutOfRangeException | Technique: Invalid data
+[PASS] AS-A01 | Alternating sum | Input: n = 5 | Expected: 3 | Actual: 3 | Technique: Equivalence partitioning
+[PASS] AS-A02 | Alternating sum | Input: n = 6 | Expected: -3 | Actual: -3 | Technique: Boundary on parity change
+[PASS] AS-A03 | Alternating sum | Input: n = 0 | Expected: Exception | Actual: ArgumentOutOfRangeException | Technique: Invalid boundary
+[PASS] GCD-A01 | Greatest common divisor | Input: a = 48, b = 18 | Expected: 6 | Actual: 6 | Technique: Equivalence partitioning
+[PASS] GCD-A02 | Greatest common divisor | Input: a = 0, b = 18 | Expected: 18 | Actual: 18 | Technique: Boundary with zero operand
+[PASS] GCD-A03 | Greatest common divisor | Input: a = 0, b = 0 | Expected: Exception | Actual: ArgumentException | Technique: Invalid special case
+[PASS] SF-A01 | Sum of factorials | Input: n = 4 | Expected: 33 | Actual: 33 | Technique: Equivalence partitioning
+[PASS] SF-A02 | Sum of factorials | Input: n = 1 | Expected: 1 | Actual: 1 | Technique: Boundary value analysis
+[PASS] SF-A03 | Sum of factorials | Input: n = 0 | Expected: Exception | Actual: ArgumentOutOfRangeException | Technique: Invalid boundary
+
+Passed: 24
+Failed: 0

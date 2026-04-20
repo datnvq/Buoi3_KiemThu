@@ -17,9 +17,11 @@ This repository contains a small .NET console application and a custom test runn
 
 - `src/Buoi3KiemThu`: console application and reusable calculation methods
 - `tests/Buoi3KiemThu.Tests`: custom test runner
+- `tests/Buoi3KiemThu.AutoTests`: data-driven auto test generator
 - `testcases/issue1-valid-cases.md`: valid black-box test cases
 - `testcases/issue2-invalid-cases.md`: invalid, boundary and exception cases
 - `results/test-results.txt`: saved output from the latest test run
+- `results/auto-test-results.txt`: saved output from the auto runner
 
 ## How black-box testing was applied
 
@@ -33,6 +35,12 @@ For each exercise, the test design used three main ideas:
 
 ```bash
 dotnet run --project tests/Buoi3KiemThu.Tests/Buoi3KiemThu.Tests.csproj
+```
+
+Run the auto-generated testcase version:
+
+```bash
+dotnet run --project tests/Buoi3KiemThu.AutoTests/Buoi3KiemThu.AutoTests.csproj
 ```
 
 ## Notes for GitHub workflow
