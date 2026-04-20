@@ -34,6 +34,10 @@ For each exercise, the test design used three main ideas:
 ## Run the tests
 
 ```bash
+dotnet run --project src/Buoi3KiemThu/Buoi3KiemThu.csproj
+```
+
+```bash
 dotnet run --project tests/Buoi3KiemThu.Tests/Buoi3KiemThu.Tests.csproj
 ```
 
